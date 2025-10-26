@@ -2,3 +2,9 @@
   git log （查看完整的提交历史）
   git log --oneline （简洁模式，仅显示提交哈希和消息）
   git log -n 3  （查看最近3次提交）
+
+例子：
+    1.  git log --oneline 
+        d3b7a1f (HEAD -> main) 修复登录页面的CSS样式
+                    a2c4e6b(这一串是文件版本号) 新增用户注册功能
+                    901d3a9 初始化项目
