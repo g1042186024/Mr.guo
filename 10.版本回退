@@ -1,0 +1,7 @@
+模式                 命令                                      HEAD位置                                    暂存区                                工作区                                      适用场景
+
+​​--soft​​              git reset --soft <commit>                  移动                                       保留​​修改                                保留​​修改                                    重新提交
+
+​​--mixed​​ (默认)      git reset <commit>                          移动                                        ​​重置​​                                  保留​​修改                                    重新暂存部分文件
+
+​​--hard​​             git reset --hard <commit>                    移动                                        重置​​                                  ​​丢弃​​所有修改                                   彻底回退
