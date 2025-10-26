@@ -1,0 +1,19 @@
+命令：git status
+作用：
+哪些文件被修改但未暂存​​
+​​哪些文件已暂存待提交​​
+​​未跟踪的新文件​​
+​​分支与远程仓库的同步状态​
+
+提示：
+​​Changes not staged for commit​​
+工作区已修改但未 git add
+
+​​Changes to be committed​​
+已暂存（可通过 git commit提交）
+
+​​Untracked files​​
+新文件未被 Git 管理
+
+​​Your branch is ahead/behind​​
+本地与远程分支的提交差异
