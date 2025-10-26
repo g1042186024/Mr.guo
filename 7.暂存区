@@ -1,0 +1,6 @@
+.git/index 
+ 暂存区​​ : 将工作区的更改暂存，准备提交。
+ 命令：git add <文件或目录>
+ 例子：单个文件名（如 git add file.txt）
+      通配符（如 git add *.js）
+      目录名（如 git add src/）
